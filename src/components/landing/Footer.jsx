@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
             <Link to="/">
-              <img src="/images/logo.svg" alt="NudgePaid" className="h-10 w-auto mb-4" />
+              <img src="/images/logo.svg" alt="NudgePaid" className="h-6 w-auto mb-4" />
             </Link>
             <p className="text-neutral-200/60 text-sm">
               AI-powered receivables management for fractional executives.

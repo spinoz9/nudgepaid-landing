@@ -29,7 +29,7 @@ export default function Hero() {
             href="#signup"
             className="px-8 py-4 bg-emerald text-white rounded-lg font-semibold text-lg hover:bg-emerald-warm transition inline-flex items-center gap-2 tracking-[-0.015em]"
           >
-            Start Your Free Trial
+            Start 7-Day Free Trial
             <ArrowRight size={20} />
           </a>
           <a

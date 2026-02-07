@@ -7,6 +7,7 @@ import Features from '../components/landing/Features';
 import IntegrationShowcase from '../components/landing/IntegrationShowcase';
 import SecurityCompliance from '../components/landing/SecurityCompliance';
 import Testimonials from '../components/landing/Testimonials';
+import Pricing from '../components/landing/Pricing';
 import FinalCTA from '../components/landing/FinalCTA';
 import FAQ from '../components/landing/FAQ';
 import Footer from '../components/landing/Footer';
@@ -20,6 +21,7 @@ export default function NudgePaidLanding() {
       <HowItWorks />
       <ROICalculator />
       <Features />
+      <Pricing />
       <IntegrationShowcase />
       <SecurityCompliance />
       {/* <Testimonials /> — hidden until real testimonials are available */}

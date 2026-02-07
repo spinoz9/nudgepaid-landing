@@ -6,6 +6,7 @@ const navLinks = [
   { label: 'How It Works', href: '#how-it-works' },
   { label: 'ROI Calculator', href: '#roi-calculator' },
   { label: 'Features', href: '#features' },
+  { label: 'Pricing', href: '#pricing' },
   { label: 'FAQ', href: '#faq' },
 ];
 
@@ -16,7 +17,7 @@ export default function Nav() {
     <nav className="fixed top-0 w-full bg-navy border-b border-neutral-200/10 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link to="/">
-          <img src="/images/logo.svg" alt="NudgePaid" className="h-20 w-auto" />
+          <img src="/images/logo.svg" alt="NudgePaid" className="h-8 w-auto" />
         </Link>
 
         {/* Desktop */}
@@ -38,7 +39,7 @@ export default function Nav() {
             href="#signup"
             className="px-5 py-2.5 bg-emerald text-white rounded-lg text-sm font-semibold hover:bg-emerald-warm transition tracking-[-0.015em]"
           >
-            Start Free Trial
+            Start 7-Day Free Trial
           </a>
         </div>
 
@@ -70,7 +71,7 @@ export default function Nav() {
             onClick={() => setMobileOpen(false)}
             className="block w-full text-center px-5 py-3 bg-emerald text-white rounded-lg text-sm font-semibold hover:bg-emerald-warm transition"
           >
-            Start Free Trial
+            Start 7-Day Free Trial
           </a>
           <a
             href="https://tally.so/r/J9zzMz"

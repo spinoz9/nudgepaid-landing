@@ -24,7 +24,7 @@ const faqItems = [
   },
   {
     question: 'What happens after the free trial?',
-    answer: 'After the trial period, you can continue with a paid subscription. Your data, templates, and configurations are preserved. No disruption to active follow-up sequences.',
+    answer: 'After your 7-day free trial, you can continue at $50/month or save with the annual plan at $500/year. Your data, templates, and configurations are preserved — no disruption to active follow-up sequences.',
   },
 ];
 
