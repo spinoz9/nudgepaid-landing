@@ -3,8 +3,9 @@
 @theme {
   --color-navy: #0f1729;
   --color-navy-light: #1a2332;
-  --color-emerald: #059669;
-  --color-emerald-warm: #10b981;
+  --color-emerald: #047857;
+  --color-emerald-warm: #059669;
+  --color-emerald-light: #10b981;
 
   --color-neutral-50: #fafafa;
   --color-neutral-100: #f4f4f5;
@@ -32,25 +33,25 @@
   width: 20px;
   height: 20px;
   border-radius: 9999px;
-  background: #059669;
+  background: #047857;
   cursor: pointer;
   transition: background 0.15s;
 }
 
 .roi-slider::-webkit-slider-thumb:hover {
-  background: #10b981;
+  background: #059669;
 }
 
 .roi-slider::-moz-range-thumb {
   width: 20px;
   height: 20px;
   border-radius: 9999px;
-  background: #059669;
+  background: #047857;
   cursor: pointer;
   border: none;
   transition: background 0.15s;
 }
 
 .roi-slider::-moz-range-thumb:hover {
-  background: #10b981;
+  background: #059669;
 }

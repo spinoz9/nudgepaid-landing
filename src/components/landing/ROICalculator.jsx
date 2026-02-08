@@ -101,6 +101,7 @@ export default function ROICalculator() {
                   value={inputs[slider.key]}
                   onChange={(e) => handleChange(slider.key, e.target.value)}
                   className="w-full roi-slider"
+                  aria-label={slider.label}
                 />
                 <div className="flex justify-between text-xs text-neutral-700/60 mt-1 font-mono">
                   <span>{slider.format(slider.min)}</span>
@@ -152,10 +153,10 @@ export default function ROICalculator() {
                   </div>
                 </div>
                 <a
-                  href="#signup"
+                  href="https://app.nudgepaid.com/sign-up"
                   className="px-6 py-3 bg-emerald text-white rounded-lg font-semibold hover:bg-emerald-warm transition text-sm"
                 >
-                  Start Free Trial
+                  Start 7-Day Free Trial
                 </a>
               </div>
             </div>

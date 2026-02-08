@@ -11,8 +11,10 @@ export default function DashboardPreview() {
 
         <div className="rounded-xl border border-neutral-200 shadow-lg overflow-hidden">
           <img
-            src="/images/dashboard-preview.png"
+            src="/images/dashboard-preview-optimized.jpg"
             alt="NudgePaid dashboard showing client invoices, DSO metrics, and follow-up status"
+            width={1200}
+            height={653}
             className="w-full h-auto"
           />
         </div>

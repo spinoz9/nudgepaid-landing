@@ -16,6 +16,7 @@ export default function NudgePaidLanding() {
   return (
     <div className="min-h-screen bg-neutral-50">
       <Nav />
+      <main>
       <Hero />
       <DashboardPreview />
       <HowItWorks />
@@ -27,6 +28,7 @@ export default function NudgePaidLanding() {
       {/* <Testimonials /> — hidden until real testimonials are available */}
       <FinalCTA />
       <FAQ />
+      </main>
       <Footer />
     </div>
   );
