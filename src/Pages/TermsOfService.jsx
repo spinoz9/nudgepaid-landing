@@ -39,12 +39,12 @@ export default function TermsOfService() {
               </p>
               <p className="text-sm font-medium text-gray-900">These Terms contain:</p>
               <ul className="text-sm list-disc list-inside mt-1 space-y-1">
-                <li>A binding arbitration clause (Section 17)</li>
-                <li>A class action waiver (Section 17.3)</li>
-                <li>Limitations on our liability (Section 15)</li>
-                <li>Your indemnification obligations (Section 16)</li>
+                <li>A binding arbitration clause (Section 15)</li>
+                <li>A class action waiver (Section 15.3)</li>
+                <li>Limitations on our liability (Section 13)</li>
+                <li>Your indemnification obligations (Section 14)</li>
               </ul>
-              <p className="text-sm mt-3">You have the right to opt out of arbitration within 30 days of account creation (see Section 17.5).</p>
+              <p className="text-sm mt-3">You have the right to opt out of arbitration within 30 days of account creation (see Section 15.5).</p>
             </div>
 
             {/* Section 1 */}
@@ -163,24 +163,36 @@ export default function TermsOfService() {
             {/* Section 6 */}
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-4">6. Refund Policy</h2>
-              <h3 className="text-base font-semibold text-gray-800 mb-2">6.1 General Policy</h3>
-              <p className="text-sm mb-4">All subscription fees are generally non-refundable and non-cancelable. You will not receive refunds for partial periods, unused time, or features you don't use.</p>
+              <h3 className="text-base font-semibold text-gray-800 mb-2">6.1 Consumer Right to Cancel (14-Day Cancellation Period)</h3>
+              <p className="text-sm mb-2">If you are a Consumer (purchasing wholly or mainly for personal use), you have the right to cancel this Agreement and receive a refund within <strong>14 days</strong> without giving any reason. The cancellation period expires <strong>14 days from the day after completion of the Transaction</strong> (when your subscription begins).</p>
+              <p className="text-sm mb-2">To meet the cancellation deadline, you must send us your cancellation request before the 14-day period expires.</p>
+              <p className="text-sm mb-4"><strong>How to Cancel:</strong> Email support@nudgepaid.com with your account email address and request to cancel. You may also manage your subscription through your account settings.</p>
 
-              <h3 className="text-base font-semibold text-gray-800 mb-2">6.2 Seven-Day Money-Back Guarantee</h3>
-              <p className="text-sm mb-2">Eligible for first-time paying subscribers only, within 7 days of your first paid charge. Applies once per customer, not per subscription. Does not apply to renewals after the first 7 days.</p>
-              <p className="text-sm mb-4">To request: Email support@nudgepaid.com with subject "Refund Request - 7-Day Guarantee" including your account email, date of first charge, and reason (optional). Approved refunds are processed within 5-7 business days.</p>
+              <h3 className="text-base font-semibold text-gray-800 mb-2">6.2 Effect of Cancellation</h3>
+              <p className="text-sm mb-2">If you cancel within the 14-day period, we will reimburse all payments you have made.</p>
+              <p className="text-sm font-medium text-gray-900 mb-1">Reimbursement Details:</p>
+              <ul className="text-sm list-disc list-inside space-y-1 mb-4">
+                <li>Made without undue delay and not later than 14 days after we receive your cancellation request</li>
+                <li>Using the same means of payment as your original transaction</li>
+                <li>You will not incur any fees as a result of the reimbursement</li>
+              </ul>
 
-              <h3 className="text-base font-semibold text-gray-800 mb-2">6.3 Billing Errors</h3>
-              <p className="text-sm mb-4">Refunds may be issued for duplicate charges, charging after confirmed cancellation, incorrect amount or plan tier, or technical payment system errors. Email support@nudgepaid.com within 30 days with subject "Billing Error - Refund Request." We investigate within 5 business days.</p>
+              <h3 className="text-base font-semibold text-gray-800 mb-2">6.3 Exception to the Right to Cancel</h3>
+              <p className="text-sm mb-4">Your right to cancel does NOT apply to digital content that you have already downloaded or accessed (once use of the Service has begun).</p>
 
-              <h3 className="text-base font-semibold text-gray-800 mb-2">6.4 Service Unavailability</h3>
-              <p className="text-sm mb-4">Refunds may be issued if the Service is unavailable for more than 48 consecutive hours due to our fault. Not covered: scheduled maintenance, third-party provider outages, internet/connectivity issues on your end, or force majeure events. Refund amount is pro-rated for days unavailable.</p>
+              <h3 className="text-base font-semibold text-gray-800 mb-2">6.4 Refund Policy After 14-Day Period</h3>
+              <p className="text-sm mb-2">After the 14-day cancellation period expires, refunds are provided at the sole discretion of NudgePaid on a case-by-case basis and may be refused. NudgePaid may refuse a refund request if we find evidence of fraud, refund abuse, or other manipulative behavior that entitles NudgePaid to counterclaim the refund.</p>
+              <p className="text-sm mb-4">This does not affect your rights as a Consumer in relation to Services which are not as described, faulty, or not fit for purpose.</p>
 
-              <h3 className="text-base font-semibold text-gray-800 mb-2">6.5 Material Breach by NudgePaid</h3>
-              <p className="text-sm mb-4">Refunds may be issued if we materially breach these Terms and fail to cure within 30 days of your written notice. Send written notice to legal@nudgepaid.com, give us 30 days to cure, then request refund from support@nudgepaid.com if uncured.</p>
+              <h3 className="text-base font-semibold text-gray-800 mb-2">6.5 Cancellation of Subscriptions</h3>
+              <p className="text-sm mb-2">You may cancel your subscription anytime by contacting support@nudgepaid.com or managing your subscription through your account settings.</p>
+              <p className="text-sm mb-4">For automatic renewal subscriptions, you must cancel at least 48 hours before the end of your current billing period for the cancellation to take effect at the next payment date. There are no refunds for unused subscription periods after cancellation.</p>
 
-              <h3 className="text-base font-semibold text-gray-800 mb-2">6.6 Cancellation</h3>
-              <p className="text-sm">You can cancel your subscription anytime in your account settings. Cancellation takes effect at the end of your current billing period. No refunds are issued for the final period unless a refund reason above applies.</p>
+              <h3 className="text-base font-semibold text-gray-800 mb-2">6.6 Subscription Billing and Price Changes</h3>
+              <p className="text-sm mb-4">Paid Subscriptions automatically renew unless cancelled. If we increase the price of your subscription, we will notify you in advance and seek your consent if required by law. You will be charged on your renewal date. If you don't consent to a price increase, you may cancel before the new price takes effect.</p>
+
+              <h3 className="text-base font-semibold text-gray-800 mb-2">6.7 Payment Failures</h3>
+              <p className="text-sm">If we cannot charge your payment method for any reason (expiration, insufficient funds, etc.) and you have not cancelled your subscription, you remain responsible for any uncollected amounts. We reserve the right to cancel your subscription if we are unable to successfully charge your payment method after reasonable collection attempts.</p>
             </div>
 
             {/* Section 7 */}
@@ -331,13 +343,35 @@ export default function TermsOfService() {
             {/* Section 19 */}
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-4">19. General Provisions</h2>
-              <p className="text-sm mb-4">These Terms constitute the entire agreement between you and NudgePaid. If any provision is found invalid, the remaining Terms remain in effect. Failure to enforce a right does not waive that right. You may not assign these Terms without our written consent. We may assign these Terms to a successor company. Neither party is liable for delays caused by events beyond reasonable control.</p>
+              <h3 className="text-base font-semibold text-gray-800 mb-2">19.1 Entire Agreement</h3>
+              <p className="text-sm mb-4">These Terms constitute the entire agreement between you and NudgePaid regarding the Service and supersede all prior negotiations, understandings, and agreements.</p>
+
+              <h3 className="text-base font-semibold text-gray-800 mb-2">19.2 Severability</h3>
+              <p className="text-sm mb-4">If any provision of these Terms is found invalid or unenforceable, that provision will be removed and the remaining Terms remain in effect.</p>
+
+              <h3 className="text-base font-semibold text-gray-800 mb-2">19.3 No Waiver</h3>
+              <p className="text-sm mb-4">If we don't enforce a right under these Terms, that doesn't mean we've waived that right. We can still enforce it later.</p>
+
+              <h3 className="text-base font-semibold text-gray-800 mb-2">19.4 Assignments</h3>
+              <p className="text-sm mb-4">You may not assign these Terms or your rights under them to anyone else without our written consent. We may assign these Terms to a successor company.</p>
+
+              <h3 className="text-base font-semibold text-gray-800 mb-2">19.5 Survival</h3>
+              <p className="text-sm mb-4">The following sections survive termination of these Terms: Intellectual Property Rights, Limitation of Liability, Indemnification, Dispute Resolution, and Governing Law.</p>
+
+              <h3 className="text-base font-semibold text-gray-800 mb-2">19.6 Force Majeure</h3>
+              <p className="text-sm mb-4">Neither party is liable for delays or failures caused by events beyond their reasonable control (natural disasters, pandemics, wars, etc.).</p>
+
+              <h3 className="text-base font-semibold text-gray-800 mb-2">19.7 Severability</h3>
+              <p className="text-sm mb-4">If any part of these Terms is found invalid, the rest remains in effect.</p>
+
+              <h3 className="text-base font-semibold text-gray-800 mb-2">19.8 Notices</h3>
+              <p className="text-sm">Any notice required under these Terms must be in writing sent to the contact information in Section 20.</p>
             </div>
 
             {/* Section 20 */}
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-4">20. Contact Information</h2>
-              <ul className="text-sm space-y-2">
+              <ul className="text-sm space-y-3">
                 <li><strong>Email:</strong> hello@nudgepaid.com</li>
                 <li><strong>Website:</strong> nudgepaid.com</li>
                 <li><strong>Response Time:</strong> Within 5 business days</li>
