@@ -28,6 +28,12 @@ export default function Nav() {
             </a>
           ))}
           <a
+            href="https://app.nudgepaid.com/sign-in"
+            className="text-neutral-200 hover:text-white text-sm transition"
+          >
+            Sign In
+          </a>
+          <a
             href="https://tally.so/r/J9zzMz"
             target="_blank"
             rel="noopener noreferrer"
@@ -36,7 +42,7 @@ export default function Nav() {
             Request Demo
           </a>
           <a
-            href="#signup"
+            href="https://app.nudgepaid.com/sign-up"
             className="px-5 py-2.5 bg-emerald text-white rounded-lg text-sm font-semibold hover:bg-emerald-warm transition tracking-[-0.015em]"
           >
             Start 7-Day Free Trial
@@ -67,7 +73,7 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="#signup"
+            href="https://app.nudgepaid.com/sign-up"
             onClick={() => setMobileOpen(false)}
             className="block w-full text-center px-5 py-3 bg-emerald text-white rounded-lg text-sm font-semibold hover:bg-emerald-warm transition"
           >
@@ -80,6 +86,13 @@ export default function Nav() {
             className="block w-full text-center px-5 py-3 border border-neutral-200/20 text-neutral-200 rounded-lg text-sm font-medium hover:bg-neutral-200/10 transition"
           >
             Request Demo
+          </a>
+          <a
+            href="https://app.nudgepaid.com/sign-in"
+            onClick={() => setMobileOpen(false)}
+            className="block text-center text-neutral-200 hover:text-white text-sm py-2"
+          >
+            Already have an account? Sign In
           </a>
         </div>
       )}

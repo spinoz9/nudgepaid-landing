@@ -14,7 +14,7 @@ export default function FinalCTA() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="#signup"
+            href="https://app.nudgepaid.com/sign-up"
             className="px-8 py-4 bg-emerald text-white rounded-lg font-semibold text-lg hover:bg-emerald-warm transition inline-flex items-center gap-2 justify-center"
           >
             Start 7-Day Free Trial
