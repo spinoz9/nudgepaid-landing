@@ -7,15 +7,15 @@ export default function PrivacyPolicy() {
       <nav className="fixed top-0 w-full bg-navy border-b border-neutral-200/10 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <Link to="/">
-            <img src="/images/logo.svg" alt="NudgePaid" className="h-20 w-auto" />
+            <img src="/images/logo.svg" alt="NudgePaid" className="h-8 w-auto" />
           </Link>
           <div className="hidden md:flex items-center gap-8">
             <Link to="/" className="text-neutral-200 hover:text-white text-sm transition">Home</Link>
             <a
-              href="#signup"
+              href="https://app.nudgepaid.com/sign-up"
               className="px-5 py-2.5 bg-emerald text-white rounded-lg text-sm font-semibold hover:bg-emerald-warm transition tracking-[-0.015em]"
             >
-              Start Free Trial
+              Start 7-Day Free Trial
             </a>
           </div>
         </div>
@@ -283,7 +283,7 @@ export default function PrivacyPolicy() {
           <div className="grid md:grid-cols-3 gap-12 mb-12">
             <div>
               <Link to="/">
-                <img src="/images/logo.svg" alt="NudgePaid" className="h-10 w-auto mb-4" />
+                <img src="/images/logo.svg" alt="NudgePaid" className="h-6 w-auto mb-4" />
               </Link>
               <p className="text-neutral-200/60 text-sm">
                 AI-powered receivables management for fractional executives.
