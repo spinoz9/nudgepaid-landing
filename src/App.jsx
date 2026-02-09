@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './Pages/Landing';
 import TermsOfService from './Pages/TermsOfService';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
+import CookieBanner from './components/CookieBanner';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Route path="/terms" element={<TermsOfService />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
+      <CookieBanner />
     </BrowserRouter>
   );
 }
