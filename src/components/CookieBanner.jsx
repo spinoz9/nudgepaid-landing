@@ -7,18 +7,22 @@ export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    if (posthog && !posthog.has_opted_in_capturing() && !posthog.has_opted_out_capturing()) {
+    if (!posthog) return;
+    const cookieConsent = localStorage.getItem('cookie_consent');
+    if (!cookieConsent) {
       setVisible(true);
     }
   }, [posthog]);
 
   const accept = () => {
     posthog.opt_in_capturing();
+    localStorage.setItem('cookie_consent', 'accepted');
     setVisible(false);
   };
 
   const reject = () => {
     posthog.opt_out_capturing();
+    localStorage.setItem('cookie_consent', 'rejected');
     setVisible(false);
   };
 
