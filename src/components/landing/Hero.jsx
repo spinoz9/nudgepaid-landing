@@ -47,7 +47,7 @@ export default function Hero() {
           <span className="hidden sm:inline">|</span>
           <span>Setup in under 5 minutes</span>
           <span className="hidden sm:inline">|</span>
-          <span>SOC 2 compliant</span>
+          <span>Built on SOC 2 certified infrastructure</span>
         </div>
       </div>
     </section>

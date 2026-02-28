@@ -16,7 +16,7 @@ const faqItems = [
   },
   {
     question: 'What security standards does NudgePaid meet?',
-    answer: 'We use AES-256 encryption, hold SOC 2 Type II certification, and follow GDPR and CCPA rules. Your client data stays private and secure.',
+    answer: 'Your data is stored on Supabase infrastructure, which is SOC 2 Type II certified, and encrypted at rest using AES-256. Your client data stays private and secure.',
   },
   {
     question: 'How does the AI maintain my professional tone?',
