@@ -8,8 +8,7 @@ export default function FinalCTA() {
           Ready to Reclaim Strategic Focus?
         </h2>
         <p className="text-lg text-neutral-200 mb-10 leading-relaxed">
-          Try NudgePaid free for 7 days and see the difference.
-          Or book a quick call and we'll walk you through it.
+          Start a 7-day free trial and experience the impact on your practice firsthand — or schedule a strategy session to discuss your specific workflow.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

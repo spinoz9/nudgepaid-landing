@@ -5,7 +5,7 @@ const features = [
     badge: 'Days Sales Outstanding Reduction',
     icon: Clock,
     title: 'Recover 10+ Days of Cash Flow',
-    description: 'Smart reminders go out at the right time so clients pay faster across all your accounts.',
+    description: 'Intelligently timed reminders accelerate payment cycles and reduce DSO across your active client engagements.',
     outcome: 'Average across early adopters',
     coming: false,
   },
@@ -13,7 +13,7 @@ const features = [
     badge: 'Communications Control',
     icon: Brain,
     title: 'Keep Client Relationships Strong',
-    description: 'Every reminder sounds like you wrote it, and can adapt can adapt in tone according to your preferences.',
+    description: 'Each follow-up is generated to reflect your communication style, with tone adapted to the client relationship and invoice stage.',
     outcome: 'Tone-matched to your voice',
     coming: false,
   },
@@ -21,7 +21,7 @@ const features = [
     badge: 'Time Saved',
     icon: Briefcase,
     title: 'Save 3+ Hours Every Week',
-    description: 'Stop chasing payments by hand. No more tracking invoices, writing follow-ups, or checking who paid.',
+    description: 'Eliminate manual follow-up tasks — reminder scheduling, delivery, and payment status tracking are handled automatically.',
     outcome: '$450-$900/wk at executive rates',
     coming: false,
   },
@@ -29,7 +29,7 @@ const features = [
     badge: 'Multi-Client Visibility',
     icon: LayoutDashboard,
     title: 'Consolidated AR Management Across Your Client Portfolio',
-    description: 'See who owes you, how long it\'s been, and what reminders have gone out for every client.',
+    description: 'Monitor outstanding balances, invoice aging, and follow-up history across every client engagement in a single view.',
     outcome: 'Payment status and history at a glance',
     coming: false,
   },
@@ -37,15 +37,15 @@ const features = [
     badge: 'Intelligent Reminder Scheduling',
     icon: TrendingUp,
     title: 'Reminders That Get Firmer Over Time',
-    description: 'The longer an invoice is overdue, the more direct the reminders become. You stay in control of the tone.',
+    description: 'Reminders increase in directness as invoices age, with configurable escalation rules and tone thresholds you define.',
     outcome: 'Coming Q2 2026',
     coming: true,
   },
   {
     badge: 'Cash Flow',
     icon: LineChart,
-    title: 'Know When You\'ll Get Paid',
-    description: 'See when payments are likely to come in based on past patterns and how clients respond to reminders.',
+    title: 'Forecast Incoming Revenue',
+    description: 'Project expected payment dates based on historical client behavior and current follow-up engagement across your portfolio.',
     outcome: 'Coming Q3 2026',
     coming: true,
   },
@@ -59,7 +59,7 @@ export default function Features() {
           Measurable Business Outcomes
         </h2>
         <p className="text-neutral-700 text-center max-w-2xl mx-auto mb-12">
-          Every feature saves you time and helps you collect more money.
+          Each capability is designed to reduce collection time and accelerate revenue recovery across your client portfolio.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

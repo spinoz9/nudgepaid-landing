@@ -5,7 +5,7 @@ const steps = [
     number: 1,
     icon: UserCog,
     title: 'Create Your Profile',
-    description: 'Tell us how you like to communicate. Set the tone and rules so every message sounds like you.',
+    description: 'Configure your communication style, tone preferences, and client-specific guidelines so every message reflects your professional voice.',
     metric: 'Personalized tone',
   },
   {
@@ -19,14 +19,14 @@ const steps = [
     number: 3,
     icon: Sparkles,
     title: 'Smart Reminders Created',
-    description: 'We build a reminder schedule for you. Adjust the timing and wording to fit each client.',
+    description: 'NudgePaid generates a follow-up schedule based on invoice due dates and client history. Adjust timing and messaging to fit each engagement.',
     metric: '3x faster than manual',
   },
   {
     number: 4,
     icon: Settings,
     title: 'Approve, Refine, or Automate',
-    description: 'Check each message before it goes out, make edits, or let trusted clients run on autopilot.',
+    description: 'Review and approve each message before delivery, or configure trusted clients to run on fully automated follow-up sequences.',
     metric: 'Full control always',
   },
 ];
@@ -39,7 +39,7 @@ export default function HowItWorks() {
           How It Works
         </h2>
         <p className="text-neutral-700 text-center max-w-2xl mx-auto mb-16">
-          Get up and running in four simple steps. You stay in control the whole time.
+          Four steps from onboarding to collection — with full visibility and control at every stage.
         </p>
 
         <div className="relative">

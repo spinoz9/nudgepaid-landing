@@ -19,7 +19,7 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-lg text-neutral-200 max-w-2xl mx-auto mb-10 leading-relaxed tracking-[-0.015em]">
-          AI-generated payment reminders that sound like you. No templates. No middleman.
+          AI-generated follow-ups that match your communication style, reviewed and approved by you before every send.
         </p>
 
         {/* Dual CTAs */}

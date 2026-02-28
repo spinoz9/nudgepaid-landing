@@ -10,7 +10,7 @@ export default function Footer() {
               <img src="/images/logo.svg" alt="NudgePaid" className="h-6 w-auto mb-4" />
             </Link>
             <p className="text-neutral-200/60 text-sm">
-              Smart invoice reminders that help you get paid faster.
+              Automated payment follow-up for independent professionals and fractional executives.
             </p>
           </div>
           <div>

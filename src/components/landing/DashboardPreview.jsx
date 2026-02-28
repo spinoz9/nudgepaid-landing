@@ -6,7 +6,7 @@ export default function DashboardPreview() {
           Unified Dashboard for Managing Receivables Across All Clients
         </h2>
         <p className="text-neutral-700 text-center max-w-2xl mx-auto mb-12">
-          Track every client, invoice, and reminder in one clean view.
+          Monitor outstanding invoices, follow-up status, and payment history across all your client engagements.
         </p>
 
         <div className="rounded-xl border border-neutral-200 shadow-lg overflow-hidden">

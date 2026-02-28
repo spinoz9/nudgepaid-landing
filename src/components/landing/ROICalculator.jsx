@@ -19,7 +19,7 @@ const sliderConfig = [
   },
   {
     key: 'currentDSO',
-    label: 'Avg. Days to Get Paid',
+    label: 'Current Days Sales Outstanding',
     min: 15,
     max: 90,
     step: 1,
@@ -77,7 +77,7 @@ export default function ROICalculator() {
           Understand Your Financial Impact
         </h2>
         <p className="text-neutral-700 text-center max-w-2xl mx-auto mb-12">
-          Plug in your numbers and see how much time and money NudgePaid can save you.
+          Enter your practice metrics to estimate the time recovered and revenue impact of automated follow-up.
         </p>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
@@ -128,7 +128,7 @@ export default function ROICalculator() {
                 <div className="text-3xl font-bold text-white font-mono">
                   ${outputs.cashFlowAccelerated.toLocaleString()}
                 </div>
-                <div className="text-sm text-neutral-200 mt-1">Cash Freed Up Sooner</div>
+                <div className="text-sm text-neutral-200 mt-1">Cash Flow Accelerated</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-white font-mono">
@@ -140,7 +140,7 @@ export default function ROICalculator() {
                 <div className="text-3xl font-bold text-emerald font-mono">
                   ${outputs.monthlyRevenueRecovered.toLocaleString()}
                 </div>
-                <div className="text-sm text-neutral-200 mt-1">Monthly Time Value Saved</div>
+                <div className="text-sm text-neutral-200 mt-1">Monthly Revenue Recovered</div>
               </div>
             </div>
 

@@ -4,15 +4,15 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 const faqItems = [
   {
     question: 'How quickly can I get started?',
-    answer: 'Most people are up and running in under five minutes. Create your profile, add your clients and invoices, review the reminder schedule, and choose to approve each message or let it send on its own.',
+    answer: 'Setup takes under five minutes. Create your profile, import your client and invoice data, review the generated follow-up schedule, and choose between manual approval or automated delivery for each client.',
   },
   {
     question: 'Will my clients know I\'m using automation?',
-    answer: 'No. Your clients just see a normal email that sounds like you wrote it. You review and approve every message before it goes out. Emails are sent from invoice@invoice.nudgepaid.com, and you can choose to be copied.',
+    answer: 'No. Each message is generated to reflect your communication style, and you review and approve it before delivery. Emails are sent from invoice@invoice.nudgepaid.com, with an optional copy to your address.',
   },
   {
     question: 'What accounting platforms do you integrate with?',
-    answer: 'We\'re building integrations with Wave, QuickBooks, Bonsai, Stripe, and Xero (coming Q2 2026). You can also upload a CSV from any platform.',
+    answer: 'Native integrations with Wave, QuickBooks, Bonsai, Stripe, and Xero are scheduled for Q2 2026. In the meantime, CSV import is supported for any accounting platform.',
   },
   {
     question: 'What security standards does NudgePaid meet?',
@@ -20,11 +20,11 @@ const faqItems = [
   },
   {
     question: 'How does the AI maintain my professional tone?',
-    answer: 'During setup, you tell us your tone and any special rules. The AI uses those to write reminders that sound like you. Future updates will let you fine-tune the tone for each client and situation.',
+    answer: 'During onboarding, you define your preferred tone, communication style, and any client-specific guidelines. NudgePaid uses those parameters to generate reminders that reflect your professional voice. Future releases will support per-client tone profiles and escalation-stage customization.',
   },
   {
     question: 'What happens after the free trial?',
-    answer: 'You can keep going at $50/month or save with the annual plan at $500/year. All your data and settings stay in place. Nothing gets interrupted.',
+    answer: 'After the trial, your subscription continues at $50/month, or $500/year with annual billing. All account data, client profiles, and active follow-up sequences carry over without interruption.',
   },
 ];
 
