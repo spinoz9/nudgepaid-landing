@@ -14,13 +14,12 @@ export default function Hero() {
 
         {/* Headline */}
         <h1 className="text-[3rem] md:text-[3.5rem] font-bold text-white leading-[1.1] tracking-[-0.025em] max-w-4xl mx-auto mb-6">
-          Automate receivables management without sacrificing client relationships
+          Automate Payment Follow-Up while Maintaining Client Relationships
         </h1>
 
         {/* Subheadline */}
         <p className="text-lg text-neutral-200 max-w-2xl mx-auto mb-10 leading-relaxed tracking-[-0.015em]">
-          AI-powered invoice follow-ups that preserve the professional relationships
-          you've built — while recovering 10+ days of cash flow.
+          AI-generated payment reminders that sound like you. No templates. No middleman.
         </p>
 
         {/* Dual CTAs */}
@@ -38,7 +37,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="px-8 py-4 border border-neutral-200/20 text-neutral-200 rounded-lg font-semibold text-lg hover:bg-neutral-200/10 transition tracking-[-0.015em]"
           >
-            Request Executive Demo
+            Request a Demo
           </a>
         </div>
 

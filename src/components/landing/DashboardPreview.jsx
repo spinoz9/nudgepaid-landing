@@ -3,10 +3,10 @@ export default function DashboardPreview() {
     <section className="py-20 px-6 bg-white">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-semibold text-neutral-900 tracking-[-0.025em] text-center mb-4">
-          Your Multi-Client AR Command Center
+          Unified Dashboard for Managing Receivables Across All Clients
         </h2>
         <p className="text-neutral-700 text-center max-w-2xl mx-auto mb-12">
-          See every client, every invoice, every follow-up — all in one executive-grade dashboard.
+          Track every client, invoice, and reminder in one clean view.
         </p>
 
         <div className="rounded-xl border border-neutral-200 shadow-lg overflow-hidden">

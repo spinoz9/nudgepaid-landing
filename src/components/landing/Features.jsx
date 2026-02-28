@@ -2,50 +2,50 @@ import { Clock, Brain, Briefcase, LayoutDashboard, TrendingUp, LineChart } from 
 
 const features = [
   {
-    badge: 'DSO Reduction',
+    badge: 'Days Sales Outstanding Reduction',
     icon: Clock,
-    title: 'Reduce DSO by 10+ Days',
-    description: 'Automated, intelligently timed reminders accelerate payment cycles across your entire client portfolio.',
+    title: 'Recover 10+ Days of Cash Flow',
+    description: 'Smart reminders go out at the right time so clients pay faster across all your accounts.',
     outcome: 'Average across early adopters',
     coming: false,
   },
   {
-    badge: 'Relationship Intelligence',
+    badge: 'Communications Control',
     icon: Brain,
-    title: 'Preserve Client Relationships',
-    description: 'AI-generated emails mirror your communication style and tone. No client ever feels "auto-nudged."',
+    title: 'Keep Client Relationships Strong',
+    description: 'Every reminder sounds like you wrote it, and can adapt can adapt in tone according to your preferences.',
     outcome: 'Tone-matched to your voice',
     coming: false,
   },
   {
-    badge: 'Time Recovery',
+    badge: 'Time Saved',
     icon: Briefcase,
-    title: 'Reclaim 3+ Hours Weekly',
-    description: 'Eliminate manual invoice tracking, follow-up drafting, and payment status checking across clients.',
+    title: 'Save 3+ Hours Every Week',
+    description: 'Stop chasing payments by hand. No more tracking invoices, writing follow-ups, or checking who paid.',
     outcome: '$450-$900/wk at executive rates',
     coming: false,
   },
   {
     badge: 'Multi-Client Visibility',
     icon: LayoutDashboard,
-    title: 'Unified AR Dashboard',
-    description: 'See payment status, aging, and follow-up history for every client engagement in one view.',
-    outcome: 'DSO, AR aging, and payment performance at a glance',
+    title: 'Consolidated AR Management Across Your Client Portfolio',
+    description: 'See who owes you, how long it\'s been, and what reminders have gone out for every client.',
+    outcome: 'Payment status and history at a glance',
     coming: false,
   },
   {
-    badge: 'Adaptive Escalation',
+    badge: 'Intelligent Reminder Scheduling',
     icon: TrendingUp,
-    title: 'Smart Escalation Sequences',
-    description: 'Progressively adjust tone and frequency based on how overdue an invoice is and your relationship depth.',
-    outcome: 'Escalation protocol coming in Q2 2026',
+    title: 'Reminders That Get Firmer Over Time',
+    description: 'The longer an invoice is overdue, the more direct the reminders become. You stay in control of the tone.',
+    outcome: 'Coming Q2 2026',
     coming: true,
   },
   {
-    badge: 'Revenue Analytics',
+    badge: 'Cash Flow',
     icon: LineChart,
-    title: 'Cash Flow Forecasting',
-    description: 'Predict when payments will arrive based on historical patterns and current follow-up engagement.',
+    title: 'Know When You\'ll Get Paid',
+    description: 'See when payments are likely to come in based on past patterns and how clients respond to reminders.',
     outcome: 'Coming Q3 2026',
     coming: true,
   },
@@ -56,10 +56,10 @@ export default function Features() {
     <section id="features" className="py-24 px-6 bg-neutral-100 scroll-mt-20">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-semibold text-neutral-900 tracking-[-0.025em] text-center mb-4">
-          Business Outcomes, Not Features
+          Measurable Business Outcomes
         </h2>
         <p className="text-neutral-700 text-center max-w-2xl mx-auto mb-12">
-          Every capability translates directly to recovered revenue and recaptured time.
+          Every feature saves you time and helps you collect more money.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

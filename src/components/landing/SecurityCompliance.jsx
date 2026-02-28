@@ -1,20 +1,15 @@
-import { ShieldCheck, Lock, Eye } from 'lucide-react';
+import { ShieldCheck, Lock } from 'lucide-react';
 
 const items = [
   {
     icon: ShieldCheck,
-    title: 'AES-256 Encryption',
-    description: 'Data encrypted at rest and in transit. Bank-level security for every byte.',
+    title: 'AES-256 Encryption at Rest',
+    description: 'Your data is stored on Supabase infrastructure and encrypted at rest using AES-256.',
   },
   {
     icon: Lock,
-    title: 'SOC 2 Type II',
-    description: 'Independently audited security controls. Compliance documentation available on request.',
-  },
-  {
-    icon: Eye,
-    title: 'GDPR & CCPA Compliant',
-    description: 'Full data portability, right to deletion, and transparent data practices.',
+    title: 'SOC 2 Type II Infrastructure',
+    description: 'Supabase, our data infrastructure provider, is independently SOC 2 Type II certified.',
   },
 ];
 
@@ -23,13 +18,13 @@ export default function SecurityCompliance() {
     <section className="py-24 px-6 bg-neutral-100">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-semibold text-neutral-900 tracking-[-0.025em] text-center mb-4">
-          Enterprise-Grade Security
+          Your Data Is Secure
         </h2>
         <p className="text-neutral-700 text-center max-w-2xl mx-auto mb-12">
-          Your client data deserves the same standard of care you bring to your engagements.
+          Your data is stored on certified infrastructure and encrypted at rest.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
           {items.map((item) => {
             const Icon = item.icon;
             return (
@@ -52,7 +47,7 @@ export default function SecurityCompliance() {
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-navy/10 border border-navy/20 rounded-full">
             <span className="w-2 h-2 bg-emerald rounded-full animate-pulse" />
             <span className="text-neutral-900 text-sm font-mono tracking-[-0.015em]">
-              Designed for Fractional Executives
+              Built for Independent Professionals
             </span>
           </div>
         </div>

@@ -5,11 +5,11 @@ export default function FinalCTA() {
     <section className="py-32 px-6 bg-navy">
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-4xl font-semibold text-white mb-6 tracking-[-0.025em]">
-          Ready to Reclaim Your Billable Hours?
+          Ready to Reclaim Strategic Focus?
         </h2>
         <p className="text-lg text-neutral-200 mb-10 leading-relaxed">
-          Join fractional executives who've automated their receivables management.
-          Schedule a 15-minute strategy session.
+          Try NudgePaid free for 7 days and see the difference.
+          Or book a quick call and we'll walk you through it.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -26,7 +26,7 @@ export default function FinalCTA() {
             rel="noopener noreferrer"
             className="px-8 py-4 border border-neutral-200/20 text-neutral-200 rounded-lg font-semibold text-lg hover:bg-neutral-200/10 transition"
           >
-            Schedule Strategy Session
+            Schedule a Strategy Session
           </a>
         </div>
       </div>

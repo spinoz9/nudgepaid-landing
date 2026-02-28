@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react';
 const sliderConfig = [
   {
     key: 'clientEngagements',
-    label: 'Active Client Engagements',
+    label: 'Active Clients',
     min: 1,
     max: 30,
     step: 1,
@@ -19,7 +19,7 @@ const sliderConfig = [
   },
   {
     key: 'currentDSO',
-    label: 'Current DSO (Days)',
+    label: 'Avg. Days to Get Paid',
     min: 15,
     max: 90,
     step: 1,
@@ -74,10 +74,10 @@ export default function ROICalculator() {
     <section id="roi-calculator" className="py-24 px-6 bg-neutral-100 scroll-mt-20">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-semibold text-neutral-900 tracking-[-0.025em] text-center mb-4">
-          Calculate Your ROI
+          Understand Your Financial Impact
         </h2>
         <p className="text-neutral-700 text-center max-w-2xl mx-auto mb-12">
-          See how NudgePaid impacts your practice based on your actual numbers.
+          Plug in your numbers and see how much time and money NudgePaid can save you.
         </p>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
@@ -114,7 +114,7 @@ export default function ROICalculator() {
           {/* Results */}
           <div className="bg-navy rounded-xl p-8">
             <h3 className="text-neutral-200/60 text-xs font-mono uppercase tracking-widest mb-6">
-              Your Projected Impact
+              Your Estimated Savings
             </h3>
 
             <div className="grid grid-cols-2 gap-6">
@@ -122,13 +122,13 @@ export default function ROICalculator() {
                 <div className="text-3xl font-bold text-emerald font-mono">
                   {outputs.dsoReduction}
                 </div>
-                <div className="text-sm text-neutral-200 mt-1">Days DSO Reduction</div>
+                <div className="text-sm text-neutral-200 mt-1">Days to Payment Recovery</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-white font-mono">
                   ${outputs.cashFlowAccelerated.toLocaleString()}
                 </div>
-                <div className="text-sm text-neutral-200 mt-1">Cash Flow Accelerated</div>
+                <div className="text-sm text-neutral-200 mt-1">Cash Freed Up Sooner</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-white font-mono">
@@ -140,7 +140,7 @@ export default function ROICalculator() {
                 <div className="text-3xl font-bold text-emerald font-mono">
                   ${outputs.monthlyRevenueRecovered.toLocaleString()}
                 </div>
-                <div className="text-sm text-neutral-200 mt-1">Monthly Revenue Recovered</div>
+                <div className="text-sm text-neutral-200 mt-1">Monthly Time Value Saved</div>
               </div>
             </div>
 

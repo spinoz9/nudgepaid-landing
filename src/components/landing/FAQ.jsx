@@ -4,27 +4,27 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 const faqItems = [
   {
     question: 'How quickly can I get started?',
-    answer: 'You can get set up in just a few minutes: create your profile with your tone and key guidelines, add your client and invoice data, review the generated follow\u2011up schedule, and then choose whether to approve each reminder or let trusted clients run on autopilot.',
+    answer: 'Most people are up and running in under five minutes. Create your profile, add your clients and invoices, review the reminder schedule, and choose to approve each message or let it send on its own.',
   },
   {
     question: 'Will my clients know I\'m using automation?',
-    answer: 'Your clients don\'t see "automation" in the background\u2014they see messages that match your voice. Each email is generated to reflect your communication style, you review and approve it before it\'s sent, and it\'s delivered from invoice@invoice.nudgepaid.com with your email copied if you choose.',
+    answer: 'No. Your clients just see a normal email that sounds like you wrote it. You review and approve every message before it goes out. Emails are sent from invoice@invoice.nudgepaid.com, and you can choose to be copied.',
   },
   {
     question: 'What accounting platforms do you integrate with?',
-    answer: 'Wave, QuickBooks, Bonsai, and Stripe, with Xero coming in Q2 2026. Manual CSV upload is also supported for any platform.',
+    answer: 'We\'re building integrations with Wave, QuickBooks, Bonsai, Stripe, and Xero (coming Q2 2026). You can also upload a CSV from any platform.',
   },
   {
     question: 'What security standards does NudgePaid meet?',
-    answer: 'AES-256 encryption at rest and in transit, SOC 2 Type II certification, full GDPR and CCPA compliance. Your client data is treated with the same confidentiality as your engagements.',
+    answer: 'We use AES-256 encryption, hold SOC 2 Type II certification, and follow GDPR and CCPA rules. Your client data stays private and secure.',
   },
   {
     question: 'How does the AI maintain my professional tone?',
-    answer: 'NudgePaid\'s AI uses the tone and special instructions you define during setup to build a writing style that reflects how you communicate. Future releases will add deeper adaptation by client and escalation stage, so reminders can adjust even more precisely to each relationship.',
+    answer: 'During setup, you tell us your tone and any special rules. The AI uses those to write reminders that sound like you. Future updates will let you fine-tune the tone for each client and situation.',
   },
   {
     question: 'What happens after the free trial?',
-    answer: 'After your 7-day free trial, you can continue at $50/month or save with the annual plan at $500/year. Your data, templates, and configurations are preserved — no disruption to active follow-up sequences.',
+    answer: 'You can keep going at $50/month or save with the annual plan at $500/year. All your data and settings stay in place. Nothing gets interrupted.',
   },
 ];
 

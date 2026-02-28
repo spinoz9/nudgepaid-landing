@@ -23,7 +23,7 @@ export default function Testimonials() {
     <section className="py-24 px-6 bg-white">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-semibold text-neutral-900 tracking-[-0.025em] text-center mb-12">
-          Trusted by Fractional Executives
+          What Our Users Say
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6">

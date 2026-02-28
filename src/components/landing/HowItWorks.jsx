@@ -5,28 +5,28 @@ const steps = [
     number: 1,
     icon: UserCog,
     title: 'Create Your Profile',
-    description: 'Configure tone, boundaries, and special instructions to keep every message on\u2011brand.',
+    description: 'Tell us how you like to communicate. Set the tone and rules so every message sounds like you.',
     metric: 'Personalized tone',
   },
   {
     number: 2,
     icon: ClipboardList,
     title: 'Input Your Client & Invoice Data',
-    description: 'Enter client and invoice details in minutes. Integrations with Wave, QuickBooks, Bonsai, and Stripe are coming in Q2 2026.',
+    description: 'Add your clients and invoices in minutes. Integrations with Wave, QuickBooks, Bonsai, and Stripe coming Q2 2026.',
     metric: 'Integrations Q2 2026',
   },
   {
     number: 3,
     icon: Sparkles,
-    title: 'Smart Follow\u2011Ups Generated',
-    description: 'Start from the generated reminder schedule, then adjust timing and frequency to fit each client.',
+    title: 'Smart Reminders Created',
+    description: 'We build a reminder schedule for you. Adjust the timing and wording to fit each client.',
     metric: '3x faster than manual',
   },
   {
     number: 4,
     icon: Settings,
     title: 'Approve, Refine, or Automate',
-    description: 'Review each message, edit tone and timing, or set trusted clients to auto-pilot mode.',
+    description: 'Check each message before it goes out, make edits, or let trusted clients run on autopilot.',
     metric: 'Full control always',
   },
 ];
@@ -39,7 +39,7 @@ export default function HowItWorks() {
           How It Works
         </h2>
         <p className="text-neutral-700 text-center max-w-2xl mx-auto mb-16">
-          Four phases from connection to collection — with you in control at every step.
+          Get up and running in four simple steps. You stay in control the whole time.
         </p>
 
         <div className="relative">
